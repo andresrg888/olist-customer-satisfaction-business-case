@@ -1,0 +1,12 @@
+# data
+data/raw/
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.bak
+__pycache__/
+.env
