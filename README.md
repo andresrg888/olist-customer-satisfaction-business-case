@@ -46,7 +46,7 @@ The analysis uses the public Olist dataset:
 - `olist_customers_dataset.csv`
 - `olist_order_items_dataset.csv` (used for order-level consistency and potential future extensions)
 
-**Data Source:** Brazilian E-Commerce Public Dataset by Olist (Kaggle)
+**Data Source:** [Brazilian E-Commerce Public Dataset by Olist (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ---
 
