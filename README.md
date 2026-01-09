@@ -46,6 +46,8 @@ The analysis uses the public Olist dataset:
 - `olist_customers_dataset.csv`
 - `olist_order_items_dataset.csv` (used for order-level consistency and potential future extensions)
 
+**Data Source:** Brazilian E-Commerce Public Dataset by Olist (Kaggle)
+
 ---
 
 ## Key Metrics
@@ -90,6 +92,22 @@ The project includes three main visualizations:
 
 All plots are saved in the `reports/` folder.
 
+## Visuals (Preview)
+
+<details>
+  <summary>Click to expand charts</summary>
+
+### Delivery Delay Distribution
+![Delivery Delay Distribution](reports/delivery_delay_distribution.png)
+
+### Delivery Delay by Review Score
+![Delivery Delay by Review Score](reports/delivery_delay_by_review_score.png)
+
+### Regional Delay vs Satisfaction
+![Regional Delay vs Satisfaction](reports/regional_delay_vs_satisfaction.png)
+
+</details>
+
 ---
 
 ## Business Recommendations
@@ -106,7 +124,7 @@ All plots are saved in the `reports/` folder.
 ```text
 project-03-olist-business-case/
 ├── data/
-│   ├── raw/olist/
+│   ├── raw/olist/            # Ignored: Original CSV datasets (Olist Kaggle)
 │   └── processed/
 │
 ├── notebooks/
